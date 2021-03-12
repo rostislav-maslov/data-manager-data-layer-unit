@@ -1,13 +1,13 @@
 
 interface {{dataNameFirstUpper}}{
     {{#fields}}
-    {{name}}: {{type}},
+    {{name}}: {{type1}},
     {{/fields}}
 }
 
 export const {{dataNameFirstUpper}}Init:{{dataNameFirstUpper}} = {
         {{#fields}}
-        {{name}}: {{init}},
+        {{name}}: {{init1}},
         {{/fields}}
 }
 
