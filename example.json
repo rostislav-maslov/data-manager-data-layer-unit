@@ -1,0 +1,15 @@
+{
+  "prefix": "view",
+  "prefixUpperFirst": "View",
+  "prefixUpper": "VIEW",
+  "dataName": "breadcrumbs",
+  "dataNameFirstUpper": "Breadcrumbs",
+  "dataNameUpper": "BREADCRUMBS",
+  "fields": [
+    {
+      "name": "title",
+      "type": "string",
+      "init": "Init value"
+    }
+  ]
+}
