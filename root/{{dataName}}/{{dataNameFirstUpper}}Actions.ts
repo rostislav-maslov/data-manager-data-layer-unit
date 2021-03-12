@@ -6,7 +6,7 @@ export interface Act{{prefixUpperFirst}}{{dataNameFirstUpper}}Set {
     payload: {{dataNameFirstUpper}}
 }
 
-export const Set{{dataNameFirstUpper}}Func = (breadcrumbs: {{dataNameFirstUpper}}):Act{{prefixUpperFirst}}{{dataNameFirstUpper}}Set => ({
+export const Set{{dataNameFirstUpper}}Func = ({{dataName}}: {{dataNameFirstUpper}}):Act{{prefixUpperFirst}}{{dataNameFirstUpper}}Set => ({
     type: ACT_{{prefixUpper}}_{{dataNameUpper}}_SET,
     payload: {{dataName}}
 });
