@@ -10,4 +10,3 @@ export const Set{{dataNameFirstUpper}}Func = (breadcrumbs: {{dataNameFirstUpper}
     type: ACT_{{prefixUpper}}_{{dataNameUpper}}_SET,
     payload: {{dataName}}
 });
-
